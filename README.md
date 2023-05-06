@@ -11,7 +11,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -37,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/manjubhaskar02/FM-9-huddle-landing-page-with-alternating-feature-blocks](https://github.com/manjubhaskar02/FM-9-huddle-landing-page-with-alternating-feature-blocks)
+- Live Site URL: [https://manjubhaskar02.github.io/FM-9-huddle-landing-page-with-alternating-feature-blocks/](https://manjubhaskar02.github.io/FM-9-huddle-landing-page-with-alternating-feature-blocks/)
 
 ## My process
 
