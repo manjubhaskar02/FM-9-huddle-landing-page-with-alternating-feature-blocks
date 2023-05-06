@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+</head>
+<body>
+  <main>
+    <section class="banner bg-[var(--Very-Pale-Cyan)] pt-3 xl:pb-7 xl:pt-10">
+      <header class="flex justify-between p-[1.1em] xl:px-[5.3em]">
+        <img class="w-[6.5em] h-4 xl:w-[12.75em] xl:h-8" src="images/logo.svg" alt="logo">
+        <button
+          class="poppins text-[.65em] px-[2.2em] py-[0.3em] xl:px-[4.75em] xl:py-4 xl:text-[0.95em]  bg-white rounded-full shadow-lg hover:text-[var(--Grayish-Blue)]">
+          Try It Free
+        </button>
+      </header>
+      <div class="xl:flex xl:gap-8 xl:px-12">
+        <div class=" text-center px-8 mt-[3.75em] xl:place-self-center basis-[44%] xl:text-left ">
+          <h1 class="animate__animated animate__backInLeft poppins text-black text-[1.5em] xl:text-[2.53em] "> Build The
+            Community Your Fans Will Love
+          </h1>
+          <p class="sans font-normal text-[1.9ch] pt-6 pb-8 xl:text-[2.12ch] "> Huddle re-imagines the way we build
+            communities. You have
+            a
+            voice, but so does your audience.
+            Create connections with your users as you engage in genuine discussion.
+          </p>
+          <button
+            class="bg-[var(--Pink)] hover:bg-[var(--Pale-Pink)] hover:drop-shadow-[0_2px_20px_rgb(237,98,179)] text-white text-[.75em] py-[.7em] px-[4.25em] xl:py-[1.1em] xl:px-[4.5em] text-[0.9em] sans font-bold rounded-full ">
+            Get
+            Started For Free
+          </button>
+        </div>
+        <div class="basis-[52%]">
+          <img class="p-[.3em] pb-8 pt-14 text-center px-8 xl:px-0 animate__animated animate__backInRight "
+            src="images/illustration-mockups.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="pt-4 pb-44 mx-5 xl:m-[6.75em]">
+      <section
+        class="text-center xl:text-left my-12  p-8 xl:py-12 card rounded-2xl grid xl:grid-cols-2 xl:pl-[7.2em] xl:gap-x-32">
+        <img class="m-auto w-[86%] order-last xl:w-[83%] xl:ml-14 hover:drop-shadow-[0_2px_20px_rgb(145,235,232)]  "
+          src="images/illustration-grow-together.svg" alt="">
+        <div class="xl:place-self-center ">
+          <h2 class="poppins text-xl pt-11 pb-3 text-[var( --Very-Dark-Cyan)] xl:text-[1.7em] xl:leading-10"> Grow
+            Together
+          </h2>
+          <p class="text-sm sans font-normal text-[var(--Grayish-Blue)] xl:text-[2.02ch] xl:leading-7"> Generate
+            meaningful discussions with your
+            audience
+            and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.
+          </p>
+        </div>
+      </section>
+      <section
+        class="text-center my-12  p-8 card rounded-2xl  grid xl:grid-cols-2 xl:text-left xl:py-16 xl:pl-[7.2em] xl:gap-x-28">
+        <img class="m-auto w-[86%] xl:m-0  hover:drop-shadow-[0_2px_20px_rgb(145,235,232)]"
+          src="images/illustration-flowing-conversation.svg" alt="">
+        <div class="xl:place-self-center ">
+          <h2 class="poppins text-xl pt-11 pb-3 text-[var( --Very-Dark-Cyan)] xl:text-[1.7em] xl:leading-10"> Flowing
+            Conversations
+          </h2>
+          <p class="text-sm sans font-normal text-[var(--Grayish-Blue)] xl:text-[2.02ch] xl:leading-7">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads
+            have just-in-time loading for a more natural flow.
+          </p>
+        </div>
+      </section>
+      <section
+        class="text-center my-12  p-8 card rounded-2xl  grid xl:grid-cols-2 xl:text-left xl:py-16 xl:pl-[7.2em] xl:gap-x-40">
+        <img class="m-auto w-[86%] order-last xl:ml-14 hover:drop-shadow-[0_2px_20px_rgb(145,235,232)]"
+          src="images/illustration-your-users.svg" alt="">
+        <div class="xl:place-self-center ">
+          <h2 class="poppins text-xl pt-11 pb-3 text-[var( --Very-Dark-Cyan)]  xl:text-[1.7em] xl:leading-10"> Your
+            Users
+          </h2>
+          <p class="text-sm sans font-normal text-[var(--Grayish-Blue)] xl:text-[2.02ch] xl:leading-7"> It takes no time
+            at all to integrate Huddle
+            with
+            your app's authentication solution.
+            This means, once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+      </section>
+    </div>
+    <section class="bg-[var(--Very-Dark-Cyan)] text-white pt-36 px-4  relative xl:px-[7.5em] xl:pt-[11.5em]">
+      <section
+        class="px-5 text-center py-11 card rounded-2xl absolute bg-white inset-x-0 top-[-6.5em] mx-3 xl:w-[57%] xl:top-[-11em] xl:mx-auto xl:pt-16 xl:pb-12 ">
+        <h2 class="poppins text-[1.12em] pb-6 text-black xl:pb-8 xl:text-[1.92em] "> Ready To Build Your Community?
+        </h2>
+        <button
+          class="bg-[var(--Pink)]  hover:bg-[var(--Pale-Pink)] hover:drop-shadow-[0_2px_20px_rgb(237,98,179)] text-white text-[.75em] py-[.7em] px-[4.25em] sans font-bold rounded-full xl:text-xl xl:py-[1.2em] xl:px-[4.7em]">
+          Get
+          Started For Free
+        </button>
+      </section>
+      <div class="grid xl:grid-cols-5 xl:gap-x-24">
+        <div class="xl:col-span-2">
+          <div class="flex">
+            <img class="w-8 h-7 xl:h-9 xl:w-12" src="images/icon-messages.svg" alt="">
+            <h1 class="poppins text-4xl leading-[30px] pl-1.5 xl:text-[3.1em] xl:leading-[41px]">Huddle</h1>
+          </div>
+          <div class="grid  grid-cols-9 pt-6 xl:pt-10">
+            <img class="col-span-1 pt-1.5" src="images/icon-location.svg" alt="">
+            <p class="col-span-8 sans font-normal text-[1.9ch] xl:pe-px"> Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit,
+              sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="grid  grid-cols-9 pt-5 ">
+            <img class="pt-1" src="images/icon-phone.svg" alt="">
+            <p class="col-span-8"> +1-543-123-4567
+            </p>
+          </div>
+          <div class="grid  grid-cols-9 pt-6 ">
+            <img class="pt-1.5" src="images/icon-email.svg" alt="">
+            <p class="col-span-8 sans font-normal xl:text-[1.2em]"> example@fylo.com
+            </p>
+          </div>
+        </div>
+        <div class="grid sans  text-[1.1em] gap-4  py-[3.2em] xl:grid-cols-2  xl:col-span-2 xl:py-[4.6em] ">
+          <div class="grid gap-4">
+            <p class="hover:text-[var(--Pink)] hover:underline decoration-[var(--Pink)]"> About Us
+            </p>
+            <p class="hover:text-[var(--Pink)] hover:underline decoration-[var(--Pink)]"> What We Do
+            </p>
+            <p class="hover:text-[var(--Pink)] hover:underline decoration-[var(--Pink)]"> FAQ
+            </p>
+          </div>
+          <div class="grid gap-4">
+            <p class="hover:text-[var(--Pink)] hover:underline decoration-[var(--Pink)]"> Career
+            </p>
+            <p class="hover:text-[var(--Pink)] hover:underline decoration-[var(--Pink)]"> Blog
+            </p>
+            <p class="hover:text-[var(--Pink)] hover:underline decoration-[var(--Pink)]"> Contact Us
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center gap-3 xl:place-self-center xl:mr-[150px] xl:pb-16">
+          <i
+            class="fa fa-facebook-f px-[0.6em] py-[0.35em] border-white border-solid border-2 rounded-full hover:text-[var(--Pink)] hover:border-[var(--Pink)]"></i>
+          <i
+            class="fa fa-twitter  p-[0.35em] border-white border-solid border-2 rounded-full hover:text-[var(--Pink)] hover:border-[var(--Pink)]"></i>
+          <i
+            class="fa fa-instagram px-[0.45em] py-[0.35em] border-white border-solid border-2 rounded-full hover:text-[var(--Pink)] hover:border-[var(--Pink)]"></i>
+        </div>
+      </div>
+      <footer>
+        <p class="text-xs text-center pt-8 pb-16 xl:text-end xl:text-sm"> &copy; Copyright 2018 Huddle. All rights
+          reserved.
+        </p>
+      </footer>
+    </section>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Manju Bhaskar</a>.
+    </p>
+  </footer>
+</body>
+</html>

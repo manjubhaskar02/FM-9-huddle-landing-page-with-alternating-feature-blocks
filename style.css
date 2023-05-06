@@ -1,0 +1,59 @@
+body {
+    display: grid;
+    margin: auto;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.banner {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.mobile-banner {
+    display: none;
+}
+
+.card {
+    box-shadow: 0 5px 5px rgb(157 150 150 / 12%), 0 1px 10px rgb(156 149 149 / 24%);
+    transition: all 1s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+    --Pale-Pink: hsla(322, 100%, 66%, 0.5);
+}
+
+.sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:500px) {
+    .banner {
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+
+}
+
+/* footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
